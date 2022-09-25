@@ -12,7 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layoutManager="LinearLayoutManager"
-        tools:listitem="@layout/top_movie" />
+        tools:listitem="@layout/top_movie"
+        tools:context=".TopMovieFragment"
+        />
 
     <androidx.core.widget.ContentLoadingProgressBar
         android:id="@+id/progress"
